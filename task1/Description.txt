@@ -1,0 +1,10 @@
+1. Установка tools
+2. Прописаны пути к компиляторам в CMakeLists.txt
+Переменные среды: ${CMAKE_CURRENT_SOURCE_DIR}
+
+3. Установлен флаг ON_PI=ON
+4. Кажется, требовал boost? Во всяком случае, он был установлен при выполнении второй части
+5. В скрипте установлены значения для переменных
+cmake .. -DON_PI=ON -DSYSROOT=$(pwd)/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/
+
+
